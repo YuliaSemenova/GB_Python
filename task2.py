@@ -1,0 +1,6 @@
+timeInSec = int(input('Введите время в секундах \n'))
+hours = int(timeInSec / 3600)
+minutes = int(timeInSec % 3600 / 60)
+seconds = int(timeInSec % 60)
+print(f'Время, чч:мм:сс: {hours:02d}:{minutes:02d}:{seconds:02d}')
+input('Нажмите Enter для завершения')
